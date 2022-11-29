@@ -568,11 +568,14 @@ body {
   border-radius: 4px;
 }
 .close-tag {
-  position: relative;
-  /* display: block; */
-  /* margin-left: auto; */
+  position: absolute;
+  top: 0;
+  right: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   background-color: var(--main-background-color);
 }
