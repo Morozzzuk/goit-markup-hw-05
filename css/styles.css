@@ -535,8 +535,8 @@ body {
   border-radius: 4px;
 }
 .close-tag {
-  position: relative;
-  top: 0;
-  right: 0;
+  display: block;
+  margin-left: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: red;
 }
